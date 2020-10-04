@@ -26,9 +26,13 @@ Data in the database is in encrypted form.
 Now we will try to search the encrypted data for inputted keyword languaje. Which will convert it  to language and display result.
 This is the technique which will help us to match the keyword languaje with encrypted keywords in the database.
 We can implement this project by three methods
+
  Wildcard – Based Technique 
+
  Gram - Based Technique 
+
  Symbol – Based Trie – traverse Search Scheme 
+
 Here we use a wild-card Technique to solve this project. For this we first need to find the Edit distance. 
 Edit distance method is used for finding string similarity.
 The edit distance ed(w1, w2) between two words w1, w2 is the number of operation required to transform one of them to other.
